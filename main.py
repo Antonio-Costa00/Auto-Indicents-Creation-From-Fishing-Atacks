@@ -3,11 +3,11 @@ import os
 
 from dotenv import load_dotenv
 
-from auth_request import auth_request
-from get_account_access import get_account_access
-from get_last_email import get_last_email
-from open_event import open_event
-from read_json import read_json
+from Archer.ArcherPlatform.auth_request import auth_request
+from Archer.ArcherPlatform.open_event import open_event
+from Archer.read_json import read_json
+from O365.get_account_access import get_account_access
+from O365.get_last_email import get_last_email
 
 if __name__ == "__main__":
 
