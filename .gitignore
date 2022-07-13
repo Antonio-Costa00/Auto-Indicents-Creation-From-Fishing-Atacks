@@ -1,0 +1,7 @@
+.env
+token_dir/o365_token.txt
+json_files/
+../../old_solutions/
+../../Azure_solution/
+../../data_classes_outlook_solution/
+__pycache__
