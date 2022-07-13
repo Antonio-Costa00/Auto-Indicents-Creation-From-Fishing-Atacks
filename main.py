@@ -3,13 +3,13 @@ import os
 
 from dotenv import load_dotenv
 
-from Archer.ArcherPlatform.auth_request import auth_request
-from Archer.ArcherPlatform.open_event import open_event
-from Archer.read_json import read_json
-from O365.get_account_access import get_account_access
-from O365.get_last_email import get_last_email
-
 if __name__ == "__main__":
+
+    from Account.get_account_access import get_account_access
+    from Account.get_last_email import get_last_email
+    from Archer.ArcherPlatform.auth_request import auth_request
+    from Archer.ArcherPlatform.open_event import open_event
+    from Archer.read_json import read_json
 
     load_dotenv()
 
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     ARCHER_PASSWORD = str(os.getenv("ARCHER_PASSWORD"))
     TOKEN_PATH = "token_dir"
     TOKEN_FILENAME = "o365_token.txt"
-    json_data = read_json("Archer/archer_example.json")
+    JSON_DATA = read_json("Archer/ArcherAPI/archer_example.json")
 
     # Get account access
     account = get_account_access(
@@ -34,10 +34,11 @@ if __name__ == "__main__":
         print(last_email)
 
         #  Get session token
-        session_token = auth_request(
-            json_data, ARCHER_URL, ARCHER_USER, ARCHER_PASSWORD
-        )
+        # session_token = auth_request(
+        #     json_data, ARCHER_URL, ARCHER_USER, ARCHER_PASSWORD
+        # )
+        session_token = ""
 
         # Open event
-        request = open_event(json_data, last_email, session_token, ARCHER_URL)
+        request = open_event(JSON_DATA, last_email, session_token, ARCHER_URL)
         print(json.dumps(request, indent=2))

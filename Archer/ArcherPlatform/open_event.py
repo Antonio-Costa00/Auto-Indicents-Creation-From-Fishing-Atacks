@@ -1,6 +1,7 @@
 import requests
 from flatten_dict import flatten, unflatten
-from format_mail import format_mail
+
+from .format_mail import format_mail
 
 
 def open_event(
@@ -41,7 +42,13 @@ def open_event(
     ] = f"ABUSE - {mail_subject}"
     # Event description
     flatten_json_data[
-        ("OpenEventParameters", "Content", "FieldContents", incident_desc_id, "Value")
+        (
+            "OpenEventParameters",
+            "Content",
+            "FieldContents",
+            incident_desc_id,
+            "Value",
+        )
     ] = event_desc_formatted
     json_data = unflatten(flatten_json_data)
     body = json_data["OpenEventParameters"]
