@@ -1,8 +1,9 @@
 import json
 import os
 
-from auth_request import auth_request
 from dotenv import load_dotenv
+
+from auth_request import auth_request
 from get_account_access import get_account_access
 from get_last_email import get_last_email
 from open_event import open_event
@@ -24,10 +25,13 @@ if __name__ == "__main__":
     json_data = read_json("Archer/archer_example.json")
 
     # Get account access
-    account = get_account_access(APP_ID, APP_SECRET, TOKEN_PATH, TOKEN_FILENAME)
+    account = get_account_access(
+        APP_ID, APP_SECRET, TOKEN_PATH, TOKEN_FILENAME, TENANT_ID
+    )
     while True:
         # Get last email from box messages
         last_email = get_last_email(account)
+        print(last_email)
 
         #  Get session token
         session_token = auth_request(
