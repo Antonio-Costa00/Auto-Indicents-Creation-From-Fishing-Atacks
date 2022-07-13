@@ -33,11 +33,10 @@ if __name__ == "__main__":
         last_email = get_last_email(account)
         print(last_email)
 
-        #  Get session token
-        # session_token = auth_request(
-        #     json_data, ARCHER_URL, ARCHER_USER, ARCHER_PASSWORD
-        # )
-        session_token = ""
+        # Get session token
+        session_token = auth_request(
+            JSON_DATA, ARCHER_URL, ARCHER_USER, ARCHER_PASSWORD
+        )
 
         # Open event
         request = open_event(JSON_DATA, last_email, session_token, ARCHER_URL)

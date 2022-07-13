@@ -24,7 +24,7 @@ def get_last_email(account) -> dict:
         last_mail = mails_new_check[0]
         if total_mails_new_check == total_mails_bfr:
             time.sleep(0.1)
-            # continue
+            continue
         last_mail = mails_new_check[0]
         separator = ", "
         mail_ccs = separator.join((str(cc) for cc in last_mail.cc))
