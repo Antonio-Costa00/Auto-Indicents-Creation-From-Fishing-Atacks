@@ -1,6 +1,6 @@
-<mxfile modified="2022-07-21T19:26:11.060Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="zGbObkzLaXUPJSvkbuoq" version="20.1.3" type="github">
+<mxfile modified="2022-07-21T19:41:14.079Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="cgz3_1DczafdMIALgwlI" version="20.1.3" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
-    <mxGraphModel dx="2980" dy="1857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#A9C4EB" math="0" shadow="1">
+    <mxGraphModel dx="1874" dy="1232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#A9C4EB" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,37 +246,37 @@
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-27" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;labelBackgroundColor=default;labelBorderColor=default;fontSize=15;fontColor=none;fillColor=#99CCFF;gradientColor=none;gradientDirection=west;noLabel=1;" parent="1" vertex="1">
           <mxGeometry x="29.000000000000007" y="429.99999999999994" width="37.4" height="37.4" as="geometry" />
         </mxCell>
-        <mxCell id="4rOhvtj2V9RLf2TJHe6H-48" value="&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Azure Active Directory&lt;br&gt;&lt;u&gt;Repetir processo a cada 90 dias&lt;/u&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=#99CCFF;labelBorderColor=default;fontSize=15;shadow=1;glass=1;sketch=0;fontStyle=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="4rOhvtj2V9RLf2TJHe6H-48" value="&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;Azure Active Directory&lt;br&gt;&lt;u&gt;Repetir processo a cada 90 dias&lt;/u&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=15;shadow=1;glass=1;sketch=0;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="79" y="429.4" width="234" height="37.1" as="geometry" />
         </mxCell>
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-49" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;labelBackgroundColor=#E6E6E6;labelBorderColor=#000000;fontSize=15;fontColor=#007FFF;fillColor=#CCFFCC;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
           <mxGeometry x="29.000000000000007" y="513.3999999999999" width="37.4" height="37.4" as="geometry" />
         </mxCell>
-        <mxCell id="4rOhvtj2V9RLf2TJHe6H-50" value="&lt;span&gt;Arquivos estáticos&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=#CCFFCC;labelBorderColor=#000000;fontSize=15;fontColor=#000000;shadow=1;glass=1;sketch=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="4rOhvtj2V9RLf2TJHe6H-50" value="&lt;span&gt;Arquivos estáticos&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=15;shadow=1;glass=1;sketch=0;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="79" y="513.7" width="138.69" height="37.1" as="geometry" />
         </mxCell>
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-51" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;labelBackgroundColor=#E6E6E6;labelBorderColor=default;fontSize=15;fontColor=#007FFF;fillColor=#3399FF;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
           <mxGeometry x="29" y="596.8000000000001" width="37.4" height="37.4" as="geometry" />
         </mxCell>
-        <mxCell id="4rOhvtj2V9RLf2TJHe6H-52" value="&lt;font color=&quot;#000000&quot;&gt;Emails e relacionados&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=#3399FF;labelBorderColor=default;fontSize=15;fontColor=#FFFFFF;shadow=1;glass=1;sketch=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="4rOhvtj2V9RLf2TJHe6H-52" value="&lt;font color=&quot;#000000&quot;&gt;Emails e relacionados&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=15;shadow=1;glass=1;sketch=0;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="77" y="596.8" width="162" height="37.1" as="geometry" />
         </mxCell>
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-53" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;labelBackgroundColor=#9AC7BF;labelBorderColor=#000000;fontSize=15;fontColor=#007FFF;fillColor=#9AC7BF;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
           <mxGeometry x="346.4" y="596.7999999999998" width="37.4" height="37.4" as="geometry" />
         </mxCell>
-        <mxCell id="4rOhvtj2V9RLf2TJHe6H-54" value="&lt;span&gt;Servidores&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=#9AC7BF;labelBorderColor=#000000;fontSize=15;fontColor=#000000;shadow=1;glass=1;sketch=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="4rOhvtj2V9RLf2TJHe6H-54" value="&lt;span&gt;Servidores&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=15;shadow=1;glass=1;sketch=0;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="398.25" y="596.8000000000001" width="80" height="37.1" as="geometry" />
         </mxCell>
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-55" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;labelBackgroundColor=#E6E6E6;labelBorderColor=default;fontSize=15;fontColor=#007FFF;fillColor=#66B2FF;gradientColor=none;gradientDirection=west;" parent="1" vertex="1">
           <mxGeometry x="346.40000000000003" y="513.6999999999999" width="37.4" height="37.4" as="geometry" />
         </mxCell>
-        <mxCell id="4rOhvtj2V9RLf2TJHe6H-56" value="&lt;span&gt;Arquivos python&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=#66B2FF;labelBorderColor=#000000;fontSize=15;fontColor=#000000;shadow=1;glass=1;sketch=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="4rOhvtj2V9RLf2TJHe6H-56" value="&lt;span&gt;Arquivos python&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=15;shadow=1;glass=1;sketch=0;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="398.25" y="523.6" width="124.4" height="17" as="geometry" />
         </mxCell>
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-57" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;labelBackgroundColor=#E6E6E6;labelBorderColor=#000000;fontSize=15;fontColor=#007FFF;fillColor=#F19C99;gradientColor=none;gradientDirection=west;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="346.40000000000003" y="430.89999999999986" width="37.4" height="37.4" as="geometry" />
         </mxCell>
-        <mxCell id="4rOhvtj2V9RLf2TJHe6H-58" value="&lt;span&gt;Urls e Tokens de acesso&lt;br&gt;&lt;u style=&quot;&quot;&gt;Repetir processo a cada 90 dias&lt;/u&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=#F19C99;labelBorderColor=#000000;fontSize=15;fontColor=#000000;shadow=1;glass=1;sketch=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="4rOhvtj2V9RLf2TJHe6H-58" value="&lt;span&gt;Urls e Tokens de acesso&lt;br&gt;&lt;u style=&quot;&quot;&gt;Repetir processo a cada 90 dias&lt;/u&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=15;shadow=1;glass=1;sketch=0;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="398.25" y="431.19999999999993" width="233" height="37.1" as="geometry" />
         </mxCell>
         <mxCell id="dOLmbF2qSbQPXLxnSTzE-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="dOLmbF2qSbQPXLxnSTzE-18" target="nSn1qpeJ9wSEvml6d4GA-78" edge="1">
