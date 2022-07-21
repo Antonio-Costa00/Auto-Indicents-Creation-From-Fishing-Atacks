@@ -1,4 +1,4 @@
-<mxfile modified="2022-07-21T19:25:35.545Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="BvjToCtMs4cifNasfQmt" version="20.1.3" type="github">
+<mxfile modified="2022-07-21T19:26:11.060Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="zGbObkzLaXUPJSvkbuoq" version="20.1.3" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2980" dy="1857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#A9C4EB" math="0" shadow="1">
       <root>
@@ -222,7 +222,7 @@
           <mxGeometry x="1175.9958620689656" y="207.99620689655183" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-3" value="Automação de incidentes na plataforma Archer: Automação ABUSE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=43;fillColor=#99CCFF;strokeColor=#001DBC;fontColor=#ffffff;gradientColor=#0066CC;gradientDirection=west;" parent="1" vertex="1">
-          <mxGeometry x="154" y="-131" width="1353" height="122" as="geometry" />
+          <mxGeometry x="125" y="-134" width="1353" height="122" as="geometry" />
         </mxCell>
         <mxCell id="4rOhvtj2V9RLf2TJHe6H-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="4rOhvtj2V9RLf2TJHe6H-4" target="nSn1qpeJ9wSEvml6d4GA-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
